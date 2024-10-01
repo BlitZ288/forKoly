@@ -1,0 +1,171 @@
+2024-09-27 11:01:03.854 +03:00 [INF] Now listening on: https://localhost:7086
+2024-09-27 11:01:03.885 +03:00 [INF] Now listening on: http://localhost:5066
+2024-09-27 11:01:04.686 +03:00 [INF] HTTP GET / responded 301 in 71.3553 ms
+2024-09-27 11:01:04.690 +03:00 [INF] HTTP GET / responded 301 in 77.2136 ms
+2024-09-27 11:01:04.747 +03:00 [INF] HTTP GET /index.html responded 200 in 42.1169 ms
+2024-09-27 11:01:04.750 +03:00 [INF] HTTP GET /index.html responded 200 in 45.0670 ms
+2024-09-27 11:01:04.780 +03:00 [INF] HTTP GET /index.js responded 200 in 1.5839 ms
+2024-09-27 11:01:04.787 +03:00 [INF] HTTP GET /index.js responded 200 in 8.3512 ms
+2024-09-27 11:01:04.788 +03:00 [INF] HTTP GET /index.css responded 200 in 13.6658 ms
+2024-09-27 11:01:04.795 +03:00 [INF] HTTP GET /index.css responded 200 in 20.8347 ms
+2024-09-27 11:01:04.820 +03:00 [INF] HTTP GET /swagger-ui-standalone-preset.js responded 200 in 45.6422 ms
+2024-09-27 11:01:04.820 +03:00 [INF] HTTP GET /swagger-ui.css responded 200 in 45.6510 ms
+2024-09-27 11:01:04.824 +03:00 [INF] HTTP GET /swagger-ui-standalone-preset.js responded 200 in 50.0057 ms
+2024-09-27 11:01:04.827 +03:00 [INF] HTTP GET /swagger-ui.css responded 200 in 53.0157 ms
+2024-09-27 11:01:04.833 +03:00 [INF] HTTP GET /swagger-ui-bundle.js responded 200 in 59.1695 ms
+2024-09-27 11:01:04.835 +03:00 [INF] HTTP GET /swagger-ui-bundle.js responded 200 in 61.2531 ms
+2024-09-27 11:01:05.023 +03:00 [INF] HTTP GET /favicon-32x32.png responded 200 in 0.2659 ms
+2024-09-27 11:01:05.024 +03:00 [INF] HTTP GET /favicon-32x32.png responded 200 in 1.7292 ms
+2024-09-27 11:01:05.103 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 93.5758 ms
+2024-09-27 11:01:05.106 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 96.2146 ms
+2024-09-27 11:02:20.838 +03:00 [INF] Executed DbCommand (39ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS u
+    WHERE u."Name" = @__userName_0)
+2024-09-27 11:02:20.937 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Email", "Name", "PasswordHash", "Salt")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-09-27 11:02:20.962 +03:00 [INF] HTTP POST /api/v1/auth/register responded 200 in 845.3078 ms
+2024-09-27 11:02:20.963 +03:00 [INF] HTTP POST /api/v1/auth/register responded 200 in 846.7417 ms
+2024-09-27 11:02:40.742 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-09-27 11:02:40.747 +03:00 [ERR] Пользователь с таким именем не найден
+2024-09-27 11:02:40.804 +03:00 [INF] HTTP POST /api/v1/auth/login responded 404 in 101.1521 ms
+2024-09-27 11:02:40.807 +03:00 [INF] HTTP POST /api/v1/auth/login responded 404 in 103.7538 ms
+2024-09-27 11:02:49.704 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-09-27 11:02:49.706 +03:00 [ERR] Пользователь с таким именем не найден
+2024-09-27 11:02:49.734 +03:00 [INF] HTTP POST /api/v1/auth/login responded 404 in 70.2422 ms
+2024-09-27 11:02:49.735 +03:00 [INF] HTTP POST /api/v1/auth/login responded 404 in 71.6615 ms
+2024-09-27 11:03:38.238 +03:00 [INF] Now listening on: https://localhost:7086
+2024-09-27 11:03:38.266 +03:00 [INF] Now listening on: http://localhost:5066
+2024-09-27 11:03:38.896 +03:00 [INF] HTTP GET /index.html responded 200 in 105.7551 ms
+2024-09-27 11:03:38.903 +03:00 [INF] HTTP GET /index.html responded 200 in 116.4761 ms
+2024-09-27 11:03:38.932 +03:00 [INF] HTTP GET /index.js responded 200 in 3.2395 ms
+2024-09-27 11:03:38.936 +03:00 [INF] HTTP GET /index.js responded 200 in 7.2572 ms
+2024-09-27 11:03:39.222 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 96.2319 ms
+2024-09-27 11:03:39.224 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 97.9924 ms
+2024-09-27 11:03:53.215 +03:00 [INF] Executed DbCommand (34ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-09-27 11:03:53.337 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-27 11:03:53.368 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 6036.7207 ms
+2024-09-27 11:03:53.370 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 6039.2522 ms
+2024-09-27 16:43:12.234 +03:00 [INF] Now listening on: http://localhost:5066
+2024-09-27 16:43:12.923 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-27 16:43:12.985 +03:00 [INF] HTTP GET / responded 301 in 59.2238 ms
+2024-09-27 16:43:12.988 +03:00 [INF] HTTP GET / responded 301 in 62.7232 ms
+2024-09-27 16:43:13.047 +03:00 [INF] HTTP GET /index.html responded 200 in 43.4716 ms
+2024-09-27 16:43:13.060 +03:00 [INF] HTTP GET /index.html responded 200 in 55.9608 ms
+2024-09-27 16:43:13.084 +03:00 [INF] HTTP GET /index.js responded 200 in 4.3753 ms
+2024-09-27 16:43:13.087 +03:00 [INF] HTTP GET /index.js responded 200 in 7.5203 ms
+2024-09-27 16:43:13.088 +03:00 [INF] HTTP GET /index.css responded 200 in 12.4010 ms
+2024-09-27 16:43:13.103 +03:00 [INF] HTTP GET /index.css responded 200 in 27.3600 ms
+2024-09-27 16:43:13.131 +03:00 [INF] HTTP GET /swagger-ui-standalone-preset.js responded 200 in 51.6462 ms
+2024-09-27 16:43:13.131 +03:00 [INF] HTTP GET /swagger-ui.css responded 200 in 57.4758 ms
+2024-09-27 16:43:13.131 +03:00 [INF] HTTP GET /swagger-ui-bundle.js responded 200 in 52.6418 ms
+2024-09-27 16:43:13.135 +03:00 [INF] HTTP GET /swagger-ui-standalone-preset.js responded 200 in 55.7201 ms
+2024-09-27 16:43:13.136 +03:00 [INF] HTTP GET /swagger-ui.css responded 200 in 62.8994 ms
+2024-09-27 16:43:13.138 +03:00 [INF] HTTP GET /swagger-ui-bundle.js responded 200 in 59.5659 ms
+2024-09-27 16:43:13.342 +03:00 [INF] HTTP GET /favicon-32x32.png responded 200 in 0.2902 ms
+2024-09-27 16:43:13.345 +03:00 [INF] HTTP GET /favicon-32x32.png responded 200 in 2.9354 ms
+2024-09-27 16:43:13.406 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 83.2006 ms
+2024-09-27 16:43:13.408 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 84.7081 ms
+2024-09-27 16:43:20.016 +03:00 [INF] HTTP POST /api/v1/auth/login responded 400 in 125.0543 ms
+2024-09-27 16:43:20.017 +03:00 [INF] HTTP POST /api/v1/auth/login responded 400 in 126.6481 ms
+2024-09-27 16:43:31.463 +03:00 [INF] HTTP POST /api/v1/auth/login responded 400 in 7.2849 ms
+2024-09-27 16:43:31.464 +03:00 [INF] HTTP POST /api/v1/auth/login responded 400 in 9.0454 ms
+2024-09-27 16:43:53.408 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-09-27 16:44:21.553 +03:00 [INF] Now listening on: http://localhost:5066
+2024-09-27 16:44:21.842 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-27 16:44:21.948 +03:00 [INF] HTTP GET /index.html responded 200 in 102.6943 ms
+2024-09-27 16:44:21.952 +03:00 [INF] HTTP GET /index.html responded 200 in 107.7653 ms
+2024-09-27 16:44:21.982 +03:00 [INF] HTTP GET /index.js responded 200 in 7.4923 ms
+2024-09-27 16:44:21.989 +03:00 [INF] HTTP GET /index.js responded 200 in 14.3620 ms
+2024-09-27 16:44:22.253 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 77.0376 ms
+2024-09-27 16:44:22.255 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 78.9637 ms
+2024-09-27 16:44:34.824 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-09-27 16:44:34.887 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-09-27 16:44:34.954 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-27 16:44:34.982 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 3480.4050 ms
+2024-09-27 16:44:34.983 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 3481.5818 ms
+2024-09-27 16:45:04.330 +03:00 [INF] HTTP GET /v1/home responded 200 in 29.5542 ms
+2024-09-27 16:45:04.331 +03:00 [INF] HTTP GET /v1/home responded 200 in 30.7792 ms
+2024-09-27 16:45:09.451 +03:00 [INF] HTTP POST /api/v1/auth/refresh responded 200 in 5.4695 ms
+2024-09-27 16:45:09.455 +03:00 [INF] HTTP POST /api/v1/auth/refresh responded 200 in 9.0784 ms
+2024-09-27 16:48:01.833 +03:00 [INF] Now listening on: http://localhost:5066
+2024-09-27 16:48:02.267 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-27 16:48:02.380 +03:00 [INF] HTTP GET /index.html responded 200 in 107.0461 ms
+2024-09-27 16:48:02.383 +03:00 [INF] HTTP GET /index.html responded 200 in 112.2066 ms
+2024-09-27 16:48:02.406 +03:00 [INF] HTTP GET /index.js responded 200 in 5.7780 ms
+2024-09-27 16:48:02.411 +03:00 [INF] HTTP GET /index.js responded 200 in 10.2969 ms
+2024-09-27 16:48:02.697 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 86.5713 ms
+2024-09-27 16:48:02.699 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 89.1098 ms
+2024-09-27 16:48:09.543 +03:00 [INF] Now listening on: http://localhost:5066
+2024-09-27 16:48:09.859 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-27 16:48:09.964 +03:00 [INF] HTTP GET /index.html responded 200 in 99.6320 ms
+2024-09-27 16:48:09.967 +03:00 [INF] HTTP GET /index.html responded 200 in 103.7239 ms
+2024-09-27 16:48:09.984 +03:00 [INF] HTTP GET /index.js responded 200 in 2.2351 ms
+2024-09-27 16:48:09.986 +03:00 [INF] HTTP GET /index.js responded 200 in 4.8492 ms
+2024-09-27 16:48:10.209 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 80.7444 ms
+2024-09-27 16:48:10.212 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 83.1899 ms
+2024-09-27 16:48:15.751 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-09-27 16:48:15.818 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-09-27 16:48:15.885 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-27 16:48:15.912 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 892.9166 ms
+2024-09-27 16:48:15.914 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 894.2593 ms
+2024-09-27 16:48:26.796 +03:00 [INF] HTTP GET /v1/home responded 200 in 27.4074 ms
+2024-09-27 16:48:26.797 +03:00 [INF] HTTP GET /v1/home responded 200 in 28.9733 ms
+2024-09-27 16:48:40.042 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__refreshToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."RefreshToken" = @__refreshToken_0 AND s."ExpiresDate" > now()
+LIMIT 1
+2024-09-27 16:48:40.050 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-09-27 16:48:40.054 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-27 16:48:40.057 +03:00 [INF] HTTP POST /api/v1/auth/refresh responded 200 in 48.0815 ms
+2024-09-27 16:48:40.059 +03:00 [INF] HTTP POST /api/v1/auth/refresh responded 200 in 49.3934 ms
+2024-09-27 16:49:00.221 +03:00 [INF] HTTP GET /v1/home responded 200 in 2.0967 ms
+2024-09-27 16:49:00.228 +03:00 [INF] HTTP GET /v1/home responded 200 in 8.3600 ms

@@ -1,0 +1,1477 @@
+2024-10-01 14:14:50.705 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 14:14:52.078 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 14:14:52.158 +03:00 [INF] HTTP GET / responded 301 in 77.2861 ms
+2024-10-01 14:14:52.161 +03:00 [INF] HTTP GET / responded 301 in 81.2363 ms
+2024-10-01 14:14:52.219 +03:00 [INF] HTTP GET /index.html responded 200 in 42.9302 ms
+2024-10-01 14:14:52.222 +03:00 [INF] HTTP GET /index.html responded 200 in 45.9841 ms
+2024-10-01 14:14:52.258 +03:00 [INF] HTTP GET /index.js responded 200 in 9.9425 ms
+2024-10-01 14:14:52.260 +03:00 [INF] HTTP GET /index.js responded 200 in 12.3215 ms
+2024-10-01 14:14:52.261 +03:00 [INF] HTTP GET /index.css responded 200 in 15.0603 ms
+2024-10-01 14:14:52.268 +03:00 [INF] HTTP GET /index.css responded 200 in 22.3093 ms
+2024-10-01 14:14:52.283 +03:00 [INF] HTTP GET /swagger-ui-standalone-preset.js responded 200 in 36.3418 ms
+2024-10-01 14:14:52.283 +03:00 [INF] HTTP GET /swagger-ui.css responded 200 in 39.9260 ms
+2024-10-01 14:14:52.287 +03:00 [INF] HTTP GET /swagger-ui-standalone-preset.js responded 200 in 39.4241 ms
+2024-10-01 14:14:52.289 +03:00 [INF] HTTP GET /swagger-ui.css responded 200 in 45.2878 ms
+2024-10-01 14:14:52.291 +03:00 [INF] HTTP GET /swagger-ui-bundle.js responded 200 in 43.0713 ms
+2024-10-01 14:14:52.294 +03:00 [INF] HTTP GET /swagger-ui-bundle.js responded 200 in 45.6949 ms
+2024-10-01 14:14:52.492 +03:00 [INF] HTTP GET /favicon-32x32.png responded 200 in 0.3279 ms
+2024-10-01 14:14:52.494 +03:00 [INF] HTTP GET /favicon-32x32.png responded 200 in 2.5229 ms
+2024-10-01 14:14:52.567 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 90.2342 ms
+2024-10-01 14:14:52.568 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 91.4384 ms
+2024-10-01 14:15:01.025 +03:00 [INF] HTTP GET /v1/home responded 401 in 4.7390 ms
+2024-10-01 14:15:01.027 +03:00 [INF] HTTP GET /v1/home responded 401 in 6.8812 ms
+2024-10-01 14:15:02.162 +03:00 [INF] HTTP GET /v1/home responded 401 in 2.7949 ms
+2024-10-01 14:15:02.166 +03:00 [INF] HTTP GET /v1/home responded 401 in 6.3204 ms
+2024-10-01 14:16:15.491 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 14:16:16.186 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 14:17:25.932 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 14:17:26.455 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 14:17:41.426 +03:00 [ERR] HTTP GET /index.html responded 500 in 14967.8406 ms
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int64.Parse(String s)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 14:17:41.448 +03:00 [ERR] HTTP GET /index.html responded 500 in 14991.3960 ms
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int64.Parse(String s)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 14:17:41.451 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int64.Parse(String s)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-01 14:17:43.567 +03:00 [ERR] HTTP GET /favicon.ico responded 500 in 1910.0458 ms
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int64.Parse(String s)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 14:17:43.571 +03:00 [ERR] HTTP GET /favicon.ico responded 500 in 1914.0195 ms
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int64.Parse(String s)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 14:17:43.576 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int64.Parse(String s)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-01 14:18:07.893 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 14:18:08.655 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 14:19:20.356 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 14:19:20.971 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 14:19:25.264 +03:00 [INF] HTTP GET /index.html responded 200 in 4283.6692 ms
+2024-10-01 14:19:25.270 +03:00 [INF] HTTP GET /index.html responded 200 in 4295.5163 ms
+2024-10-01 14:19:26.920 +03:00 [INF] HTTP GET /index.js responded 200 in 1658.6433 ms
+2024-10-01 14:19:26.922 +03:00 [INF] HTTP GET /index.js responded 200 in 1660.5504 ms
+2024-10-01 14:19:28.716 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 1703.9794 ms
+2024-10-01 14:19:28.718 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 1705.6362 ms
+2024-10-01 14:19:40.201 +03:00 [INF] Executed DbCommand (40ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-10-01 14:19:42.141 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 14:19:43.211 +03:00 [ERR] Failed executing DbCommand (11ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 14:19:43.236 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'Auth.Infrastructure.DataBase.ApplicationContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: столбец "AccessToken" в таблице "Sessions" не существует
+
+POSITION: 31
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 42703
+    MessageText: столбец "AccessToken" в таблице "Sessions" не существует
+    Position: 31
+    File: parse_target.c
+    Line: 1066
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: столбец "AccessToken" в таблице "Sessions" не существует
+
+POSITION: 31
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 42703
+    MessageText: столбец "AccessToken" в таблице "Sessions" не существует
+    Position: 31
+    File: parse_target.c
+    Line: 1066
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-10-01 14:19:43.337 +03:00 [ERR] HTTP POST /api/v1/auth/login responded 500 in 3818.7485 ms
+2024-10-01 14:19:43.338 +03:00 [ERR] HTTP POST /api/v1/auth/login responded 500 in 3820.1111 ms
+2024-10-01 14:19:47.911 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-10-01 14:19:47.926 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 14:19:47.933 +03:00 [ERR] Failed executing DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 14:19:47.936 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'Auth.Infrastructure.DataBase.ApplicationContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: столбец "AccessToken" в таблице "Sessions" не существует
+
+POSITION: 31
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 42703
+    MessageText: столбец "AccessToken" в таблице "Sessions" не существует
+    Position: 31
+    File: parse_target.c
+    Line: 1066
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: столбец "AccessToken" в таблице "Sessions" не существует
+
+POSITION: 31
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 42703
+    MessageText: столбец "AccessToken" в таблице "Sessions" не существует
+    Position: 31
+    File: parse_target.c
+    Line: 1066
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-10-01 14:19:48.008 +03:00 [ERR] HTTP POST /api/v1/auth/login responded 500 in 112.1265 ms
+2024-10-01 14:19:48.010 +03:00 [ERR] HTTP POST /api/v1/auth/login responded 500 in 113.4476 ms
+2024-10-01 14:20:06.586 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-10-01 14:20:06.609 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 14:20:06.614 +03:00 [ERR] Failed executing DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 14:20:06.617 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'Auth.Infrastructure.DataBase.ApplicationContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: столбец "AccessToken" в таблице "Sessions" не существует
+
+POSITION: 31
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 42703
+    MessageText: столбец "AccessToken" в таблице "Sessions" не существует
+    Position: 31
+    File: parse_target.c
+    Line: 1066
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: столбец "AccessToken" в таблице "Sessions" не существует
+
+POSITION: 31
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 42703
+    MessageText: столбец "AccessToken" в таблице "Sessions" не существует
+    Position: 31
+    File: parse_target.c
+    Line: 1066
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-10-01 14:22:24.009 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 14:22:24.400 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 14:22:24.601 +03:00 [INF] HTTP GET /index.html responded 200 in 195.7997 ms
+2024-10-01 14:22:24.605 +03:00 [INF] HTTP GET /index.html responded 200 in 202.1059 ms
+2024-10-01 14:22:24.636 +03:00 [INF] HTTP GET /index.js responded 200 in 10.0695 ms
+2024-10-01 14:22:24.637 +03:00 [INF] HTTP GET /index.js responded 200 in 11.9750 ms
+2024-10-01 14:22:24.852 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 85.6806 ms
+2024-10-01 14:22:24.854 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 86.9318 ms
+2024-10-01 14:22:35.901 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-10-01 14:22:35.971 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 14:22:36.061 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 14:22:36.076 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 3228.0610 ms
+2024-10-01 14:22:36.078 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 3229.3990 ms
+2024-10-01 14:25:26.067 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 14:25:26.696 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 14:25:28.664 +03:00 [INF] HTTP GET /index.html responded 200 in 1963.7389 ms
+2024-10-01 14:25:28.669 +03:00 [INF] HTTP GET /index.html responded 200 in 1971.0632 ms
+2024-10-01 14:25:28.705 +03:00 [INF] HTTP GET /index.js responded 200 in 11.4175 ms
+2024-10-01 14:25:28.707 +03:00 [INF] HTTP GET /index.js responded 200 in 13.4773 ms
+2024-10-01 14:25:28.923 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 86.9639 ms
+2024-10-01 14:25:28.924 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 88.3828 ms
+2024-10-01 14:25:38.892 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-10-01 14:25:38.962 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 14:25:39.051 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 14:25:39.069 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 799.5865 ms
+2024-10-01 14:25:39.071 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 801.4189 ms
+2024-10-01 14:26:03.756 +03:00 [INF] HTTP GET /v1/home responded 200 in 12439.4874 ms
+2024-10-01 14:26:03.758 +03:00 [INF] HTTP GET /v1/home responded 200 in 12441.3745 ms
+2024-10-01 14:29:48.091 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 14:29:48.804 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 14:29:50.505 +03:00 [INF] HTTP GET /index.html responded 200 in 1697.9126 ms
+2024-10-01 14:29:50.509 +03:00 [INF] HTTP GET /index.html responded 200 in 1703.3835 ms
+2024-10-01 14:29:51.164 +03:00 [INF] HTTP GET /index.js responded 200 in 633.0716 ms
+2024-10-01 14:29:51.166 +03:00 [INF] HTTP GET /index.js responded 200 in 635.3788 ms
+2024-10-01 14:29:51.801 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 526.0029 ms
+2024-10-01 14:29:51.803 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 527.9939 ms
+2024-10-01 14:29:59.360 +03:00 [INF] Executed DbCommand (45ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-10-01 14:29:59.443 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 14:29:59.543 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 14:29:59.557 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 903.7089 ms
+2024-10-01 14:29:59.558 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 904.6612 ms
+2024-10-01 14:42:20.083 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 14:42:20.521 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 14:42:22.989 +03:00 [INF] HTTP GET /index.html responded 200 in 2464.7510 ms
+2024-10-01 14:42:22.994 +03:00 [INF] HTTP GET /index.html responded 200 in 2471.1095 ms
+2024-10-01 14:42:23.573 +03:00 [INF] HTTP GET /index.js responded 200 in 561.7424 ms
+2024-10-01 14:42:23.579 +03:00 [INF] HTTP GET /index.js responded 200 in 567.8595 ms
+2024-10-01 14:42:24.265 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 592.2494 ms
+2024-10-01 14:42:24.267 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 594.3164 ms
+2024-10-01 14:42:33.711 +03:00 [INF] Executed DbCommand (35ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-10-01 14:42:33.773 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 14:42:33.868 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 14:42:33.885 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 833.7915 ms
+2024-10-01 14:42:33.886 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 834.7946 ms
+2024-10-01 14:43:02.822 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 14:43:03.355 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 14:43:18.642 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 14:43:19.208 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 14:43:19.425 +03:00 [INF] HTTP GET /index.html responded 200 in 211.2900 ms
+2024-10-01 14:43:19.432 +03:00 [INF] HTTP GET /index.html responded 200 in 220.9509 ms
+2024-10-01 14:43:19.462 +03:00 [INF] HTTP GET /index.js responded 200 in 10.6559 ms
+2024-10-01 14:43:19.465 +03:00 [INF] HTTP GET /index.js responded 200 in 13.2554 ms
+2024-10-01 14:43:19.678 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 84.8380 ms
+2024-10-01 14:43:19.680 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 86.7187 ms
+2024-10-01 14:43:28.209 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-10-01 14:43:28.271 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 14:43:28.355 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 14:43:28.370 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 770.4954 ms
+2024-10-01 14:43:28.371 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 771.5293 ms
+2024-10-01 14:46:32.798 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 14:46:33.246 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 14:46:33.468 +03:00 [INF] HTTP GET /index.html responded 200 in 218.8077 ms
+2024-10-01 14:46:33.475 +03:00 [INF] HTTP GET /index.html responded 200 in 227.3176 ms
+2024-10-01 14:46:33.502 +03:00 [INF] HTTP GET /index.js responded 200 in 7.0061 ms
+2024-10-01 14:46:33.503 +03:00 [INF] HTTP GET /index.js responded 200 in 8.4579 ms
+2024-10-01 14:46:33.720 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 88.0164 ms
+2024-10-01 14:46:33.722 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 90.1265 ms
+2024-10-01 14:46:37.701 +03:00 [INF] HTTP GET /v1/home responded 401 in 5.5072 ms
+2024-10-01 14:46:37.703 +03:00 [INF] HTTP GET /v1/home responded 401 in 7.0579 ms
+2024-10-01 14:46:48.132 +03:00 [INF] Executed DbCommand (38ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-10-01 14:46:48.199 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 14:46:48.304 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 14:46:48.321 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 806.3185 ms
+2024-10-01 14:46:48.322 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 807.3130 ms
+2024-10-01 15:36:09.830 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 15:36:10.572 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 15:36:10.762 +03:00 [INF] HTTP GET /index.html responded 200 in 185.5592 ms
+2024-10-01 15:36:10.767 +03:00 [INF] HTTP GET /index.html responded 200 in 192.9908 ms
+2024-10-01 15:36:10.791 +03:00 [INF] HTTP GET /index.js responded 200 in 6.8137 ms
+2024-10-01 15:36:10.793 +03:00 [INF] HTTP GET /index.js responded 200 in 8.5803 ms
+2024-10-01 15:36:11.007 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 90.2309 ms
+2024-10-01 15:36:11.008 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 91.5780 ms
+2024-10-01 15:36:17.583 +03:00 [INF] Executed DbCommand (34ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-10-01 15:36:17.646 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 15:36:17.733 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 15:36:17.747 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 761.1554 ms
+2024-10-01 15:36:17.748 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 762.1405 ms
+2024-10-01 15:36:42.219 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:36:48.066 +03:00 [WRN] No output formatter was found for content types '["application/json; charset=utf-8","application/json; charset=utf-8"]' to write the response.
+2024-10-01 15:36:48.080 +03:00 [ERR] HTTP GET /v1/home responded 500 in 12677.8692 ms
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:36:48.101 +03:00 [ERR] HTTP GET /v1/home responded 500 in 12698.5292 ms
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:36:48.106 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-01 15:36:48.111 +03:00 [WRN] The response has already started, the error page middleware will not be executed.
+2024-10-01 15:37:04.289 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:37:04.306 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__refreshToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."RefreshToken" = @__refreshToken_0 AND s."ExpiresDate" > now()
+LIMIT 1
+2024-10-01 15:37:04.310 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__refreshToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."RefreshToken" = @__refreshToken_0 AND s."ExpiresDate" > now()
+LIMIT 1
+2024-10-01 15:37:04.312 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 15:37:04.315 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 15:37:04.322 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Sessions"
+WHERE "Id" = @p0;
+2024-10-01 15:37:04.370 +03:00 [ERR] HTTP POST /api/v1/auth/refresh responded 500 in 1446.3866 ms
+System.InvalidOperationException: OnStarting cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.OnStarting(Func`2 callback, Object state)
+   at Asp.Versioning.ReportApiVersionsAttribute.OnActionExecuting(ActionExecutingContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:37:04.376 +03:00 [ERR] HTTP POST /api/v1/auth/refresh responded 500 in 1452.3728 ms
+System.InvalidOperationException: OnStarting cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.OnStarting(Func`2 callback, Object state)
+   at Asp.Versioning.ReportApiVersionsAttribute.OnActionExecuting(ActionExecutingContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:37:04.381 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: OnStarting cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.OnStarting(Func`2 callback, Object state)
+   at Asp.Versioning.ReportApiVersionsAttribute.OnActionExecuting(ActionExecutingContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-01 15:37:04.385 +03:00 [WRN] The response has already started, the error page middleware will not be executed.
+2024-10-01 15:37:29.778 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:37:42.495 +03:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[@__refreshToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."RefreshToken" = @__refreshToken_0 AND s."ExpiresDate" > now()
+LIMIT 1
+2024-10-01 15:37:42.501 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Auth.Infrastructure.DataBase.ApplicationContext'.
+System.InvalidOperationException: Connection is not open
+   at Npgsql.ThrowHelper.ThrowInvalidOperationException(String message)
+   at Npgsql.NpgsqlCommand.CheckAndGetConnection()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: Connection is not open
+   at Npgsql.ThrowHelper.ThrowInvalidOperationException(String message)
+   at Npgsql.NpgsqlCommand.CheckAndGetConnection()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-10-01 15:38:15.846 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 15:38:16.590 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 15:38:18.446 +03:00 [INF] HTTP GET /index.html responded 200 in 1850.8948 ms
+2024-10-01 15:38:18.450 +03:00 [INF] HTTP GET /index.html responded 200 in 1857.5569 ms
+2024-10-01 15:38:19.023 +03:00 [INF] HTTP GET /index.js responded 200 in 556.7740 ms
+2024-10-01 15:38:19.026 +03:00 [INF] HTTP GET /index.js responded 200 in 559.7022 ms
+2024-10-01 15:38:19.692 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 567.5430 ms
+2024-10-01 15:38:19.694 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 569.4278 ms
+2024-10-01 15:38:32.362 +03:00 [INF] HTTP POST /api/v1/auth/refresh responded 400 in 3136.0147 ms
+2024-10-01 15:38:32.364 +03:00 [INF] HTTP POST /api/v1/auth/refresh responded 400 in 3138.0612 ms
+2024-10-01 15:38:39.579 +03:00 [INF] HTTP POST /api/v1/auth/refresh responded 400 in 3881.6244 ms
+2024-10-01 15:38:39.582 +03:00 [INF] HTTP POST /api/v1/auth/refresh responded 400 in 3884.3158 ms
+2024-10-01 15:38:46.371 +03:00 [INF] Executed DbCommand (34ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-10-01 15:38:46.429 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 15:38:46.507 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 15:38:46.517 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 774.8958 ms
+2024-10-01 15:38:46.518 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 775.9822 ms
+2024-10-01 15:39:05.926 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:39:15.537 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__refreshToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."RefreshToken" = @__refreshToken_0 AND s."ExpiresDate" > now()
+LIMIT 1
+2024-10-01 15:39:30.693 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__refreshToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."RefreshToken" = @__refreshToken_0 AND s."ExpiresDate" > now()
+LIMIT 1
+2024-10-01 15:39:40.421 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 15:39:53.785 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 15:39:56.814 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Sessions"
+WHERE "Id" = @p0;
+2024-10-01 15:40:14.667 +03:00 [ERR] HTTP POST /api/v1/auth/refresh responded 500 in 68776.0598 ms
+System.InvalidOperationException: OnStarting cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.OnStarting(Func`2 callback, Object state)
+   at Asp.Versioning.ReportApiVersionsAttribute.OnActionExecuting(ActionExecutingContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:40:14.687 +03:00 [ERR] HTTP POST /api/v1/auth/refresh responded 500 in 68796.4809 ms
+System.InvalidOperationException: OnStarting cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.OnStarting(Func`2 callback, Object state)
+   at Asp.Versioning.ReportApiVersionsAttribute.OnActionExecuting(ActionExecutingContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:40:14.694 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: OnStarting cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.OnStarting(Func`2 callback, Object state)
+   at Asp.Versioning.ReportApiVersionsAttribute.OnActionExecuting(ActionExecutingContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-01 15:40:14.702 +03:00 [WRN] The response has already started, the error page middleware will not be executed.
+2024-10-01 15:40:19.029 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:40:19.032 +03:00 [WRN] No output formatter was found for content types '["application/json; charset=utf-8","application/json; charset=utf-8"]' to write the response.
+2024-10-01 15:40:19.044 +03:00 [ERR] HTTP GET /v1/home responded 500 in 63.7074 ms
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:40:19.050 +03:00 [ERR] HTTP GET /v1/home responded 500 in 69.9240 ms
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:40:19.056 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-01 15:40:19.060 +03:00 [WRN] The response has already started, the error page middleware will not be executed.
+2024-10-01 15:42:30.167 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 15:42:30.966 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 15:42:31.171 +03:00 [INF] HTTP GET /index.html responded 200 in 201.5394 ms
+2024-10-01 15:42:31.179 +03:00 [INF] HTTP GET /index.html responded 200 in 211.2177 ms
+2024-10-01 15:42:31.223 +03:00 [INF] HTTP GET /index.js responded 200 in 13.4189 ms
+2024-10-01 15:42:31.226 +03:00 [INF] HTTP GET /index.js responded 200 in 16.5413 ms
+2024-10-01 15:42:31.550 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 85.6294 ms
+2024-10-01 15:42:31.551 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 87.0374 ms
+2024-10-01 15:42:37.607 +03:00 [INF] Executed DbCommand (37ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-10-01 15:42:37.671 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 15:42:37.751 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 15:42:37.766 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 762.2564 ms
+2024-10-01 15:42:37.767 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 763.3508 ms
+2024-10-01 15:42:47.112 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:42:47.116 +03:00 [WRN] No output formatter was found for content types '["application/json; charset=utf-8","application/json; charset=utf-8"]' to write the response.
+2024-10-01 15:42:47.143 +03:00 [ERR] HTTP GET /v1/home responded 500 in 69.0786 ms
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:42:47.168 +03:00 [ERR] HTTP GET /v1/home responded 500 in 93.6450 ms
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:42:47.174 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-01 15:42:47.180 +03:00 [WRN] The response has already started, the error page middleware will not be executed.
+2024-10-01 15:42:50.264 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:42:50.264 +03:00 [WRN] No output formatter was found for content types '["application/json; charset=utf-8","application/json; charset=utf-8"]' to write the response.
+2024-10-01 15:42:50.277 +03:00 [ERR] HTTP GET /v1/home responded 500 in 52.9352 ms
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:42:50.282 +03:00 [ERR] HTTP GET /v1/home responded 500 in 57.9539 ms
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:42:50.287 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-01 15:42:50.295 +03:00 [WRN] The response has already started, the error page middleware will not be executed.
+2024-10-01 15:43:02.401 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:43:12.968 +03:00 [WRN] No output formatter was found for content types '["application/json; charset=utf-8","application/json; charset=utf-8"]' to write the response.
+2024-10-01 15:43:13.007 +03:00 [ERR] HTTP GET /v1/home responded 500 in 10608.9039 ms
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:43:13.016 +03:00 [ERR] HTTP GET /v1/home responded 500 in 10618.3688 ms
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:43:13.023 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-01 15:43:13.029 +03:00 [WRN] The response has already started, the error page middleware will not be executed.
+2024-10-01 15:43:31.820 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 15:43:32.636 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 15:43:32.836 +03:00 [INF] HTTP GET /index.html responded 200 in 196.7633 ms
+2024-10-01 15:43:32.840 +03:00 [INF] HTTP GET /index.html responded 200 in 201.8819 ms
+2024-10-01 15:43:32.871 +03:00 [INF] HTTP GET /index.js responded 200 in 11.2735 ms
+2024-10-01 15:43:32.873 +03:00 [INF] HTTP GET /index.js responded 200 in 12.8435 ms
+2024-10-01 15:43:33.164 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 81.9767 ms
+2024-10-01 15:43:33.165 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 83.4493 ms
+2024-10-01 15:43:38.490 +03:00 [INF] Executed DbCommand (31ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-10-01 15:43:38.552 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 15:43:38.637 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 15:43:38.651 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 740.7165 ms
+2024-10-01 15:43:38.652 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 741.7430 ms
+2024-10-01 15:43:47.929 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:43:50.118 +03:00 [INF] HTTP GET /v1/home responded 200 in 2223.3733 ms
+2024-10-01 15:43:50.121 +03:00 [INF] HTTP GET /v1/home responded 200 in 2225.9823 ms
+2024-10-01 15:44:05.691 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:44:08.424 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__refreshToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."RefreshToken" = @__refreshToken_0 AND s."ExpiresDate" > now()
+LIMIT 1
+2024-10-01 15:44:08.428 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 15:44:08.432 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 15:44:08.438 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Sessions"
+WHERE "Id" = @p0;
+2024-10-01 15:44:08.443 +03:00 [INF] HTTP POST /api/v1/auth/refresh responded 200 in 2790.3969 ms
+2024-10-01 15:44:08.445 +03:00 [INF] HTTP POST /api/v1/auth/refresh responded 200 in 2791.9549 ms
+2024-10-01 15:44:34.127 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:44:34.138 +03:00 [INF] HTTP GET /v1/home responded 200 in 11499.2024 ms
+2024-10-01 15:44:37.376 +03:00 [INF] HTTP GET /v1/home responded 200 in 14737.2200 ms
+2024-10-01 15:45:13.124 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 15:45:13.651 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 15:45:13.855 +03:00 [INF] HTTP GET /index.html responded 200 in 200.8714 ms
+2024-10-01 15:45:13.858 +03:00 [INF] HTTP GET /index.html responded 200 in 205.0961 ms
+2024-10-01 15:45:13.889 +03:00 [INF] HTTP GET /index.js responded 200 in 10.4841 ms
+2024-10-01 15:45:13.890 +03:00 [INF] HTTP GET /index.js responded 200 in 11.7747 ms
+2024-10-01 15:45:14.097 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 83.7222 ms
+2024-10-01 15:45:14.098 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 85.1898 ms
+2024-10-01 15:45:21.670 +03:00 [INF] Executed DbCommand (39ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-10-01 15:45:21.729 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 15:45:21.813 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 15:45:21.827 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 771.2581 ms
+2024-10-01 15:45:21.828 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 772.3080 ms
+2024-10-01 15:45:36.854 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-10-01 15:45:36.869 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 15:45:36.873 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 15:45:36.875 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 8101.8249 ms
+2024-10-01 15:45:36.876 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 8103.1006 ms
+2024-10-01 15:45:53.873 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:45:53.879 +03:00 [INF] HTTP GET /v1/home responded 200 in 1331.0609 ms
+2024-10-01 15:45:53.880 +03:00 [INF] HTTP GET /v1/home responded 200 in 1332.0493 ms
+2024-10-01 15:45:59.851 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:46:05.190 +03:00 [INF] HTTP GET /v1/home responded 200 in 8458.3115 ms
+2024-10-01 15:46:05.191 +03:00 [INF] HTTP GET /v1/home responded 200 in 8459.3040 ms
+2024-10-01 15:46:14.872 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:46:21.033 +03:00 [INF] HTTP GET /v1/home responded 200 in 9324.4363 ms
+2024-10-01 15:46:21.034 +03:00 [INF] HTTP GET /v1/home responded 200 in 9325.4206 ms
+2024-10-01 15:46:35.967 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:46:39.632 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__refreshToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."RefreshToken" = @__refreshToken_0 AND s."ExpiresDate" > now()
+LIMIT 1
+2024-10-01 15:46:41.715 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 15:46:41.720 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 15:46:41.728 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Sessions"
+WHERE "Id" = @p0;
+2024-10-01 15:46:41.733 +03:00 [INF] HTTP POST /api/v1/auth/refresh responded 200 in 12683.4694 ms
+2024-10-01 15:46:41.735 +03:00 [INF] HTTP POST /api/v1/auth/refresh responded 200 in 12684.7941 ms
+2024-10-01 15:46:45.855 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:46:45.860 +03:00 [WRN] No output formatter was found for content types '["application/json; charset=utf-8","application/json; charset=utf-8"]' to write the response.
+2024-10-01 15:46:45.880 +03:00 [ERR] HTTP GET /v1/home responded 500 in 30.1505 ms
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 31
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:46:45.903 +03:00 [ERR] HTTP GET /v1/home responded 500 in 53.1457 ms
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 31
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:46:45.909 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 31
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-01 15:46:45.917 +03:00 [WRN] The response has already started, the error page middleware will not be executed.
+2024-10-01 15:46:55.264 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:47:01.174 +03:00 [WRN] No output formatter was found for content types '["application/json; charset=utf-8","application/json; charset=utf-8"]' to write the response.
+2024-10-01 15:47:01.203 +03:00 [ERR] HTTP GET /v1/home responded 500 in 7884.5797 ms
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 31
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:47:01.209 +03:00 [ERR] HTTP GET /v1/home responded 500 in 7890.6580 ms
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 31
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-10-01 15:47:01.217 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Auth.Middleware.AuthorizationMiddleware.InvokeAsync(HttpContext context, TokenService tokenService) in C:\Users\raven\Desktop\Auth\Middleware\AuthorizationMiddleware.cs:line 31
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-01 15:47:01.225 +03:00 [WRN] The response has already started, the error page middleware will not be executed.
+2024-10-01 15:55:36.627 +03:00 [INF] Now listening on: http://localhost:5066
+2024-10-01 15:55:37.216 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-01 15:55:37.335 +03:00 [INF] HTTP GET /index.html responded 200 in 116.6098 ms
+2024-10-01 15:55:37.338 +03:00 [INF] HTTP GET /index.html responded 200 in 120.7834 ms
+2024-10-01 15:55:37.366 +03:00 [INF] HTTP GET /index.js responded 200 in 6.4482 ms
+2024-10-01 15:55:37.369 +03:00 [INF] HTTP GET /index.js responded 200 in 9.0027 ms
+2024-10-01 15:55:37.599 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 97.1437 ms
+2024-10-01 15:55:37.600 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 98.5691 ms
+2024-10-01 15:55:40.233 +03:00 [INF] HTTP GET /v1/home responded 401 in 6.7028 ms
+2024-10-01 15:55:40.234 +03:00 [INF] HTTP GET /v1/home responded 401 in 7.8641 ms
+2024-10-01 15:55:49.608 +03:00 [INF] Executed DbCommand (33ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Name" = @__userName_0
+LIMIT 1
+2024-10-01 15:55:49.669 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 15:55:49.751 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 15:55:49.765 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 870.5160 ms
+2024-10-01 15:55:49.766 +03:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 871.8616 ms
+2024-10-01 15:55:58.386 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:55:58.391 +03:00 [INF] HTTP GET /v1/home responded 200 in 50.0288 ms
+2024-10-01 15:55:58.392 +03:00 [INF] HTTP GET /v1/home responded 200 in 51.5190 ms
+2024-10-01 15:56:17.025 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__refreshToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."RefreshToken" = @__refreshToken_0 AND s."ExpiresDate" > now()
+LIMIT 1
+2024-10-01 15:56:17.030 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."Name", u."PasswordHash", u."Salt"
+FROM "Users" AS u
+WHERE u."Id" = @__id_0
+LIMIT 1
+2024-10-01 15:56:17.033 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sessions" ("Id", "AccessToken", "CreatedDate", "ExpiresDate", "RefreshToken", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-10-01 15:56:17.040 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Sessions"
+WHERE "Id" = @p0;
+2024-10-01 15:56:17.046 +03:00 [INF] HTTP POST /api/v1/auth/refresh responded 200 in 76.2189 ms
+2024-10-01 15:56:17.048 +03:00 [INF] HTTP POST /api/v1/auth/refresh responded 200 in 78.6424 ms
+2024-10-01 15:56:19.560 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__accessToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."AccessToken", s."CreatedDate", s."ExpiresDate", s."RefreshToken", s."UserId"
+FROM "Sessions" AS s
+WHERE s."AccessToken" = @__accessToken_0
+LIMIT 1
+2024-10-01 15:56:19.563 +03:00 [INF] HTTP GET /v1/home responded 401 in 9.2335 ms
+2024-10-01 15:56:19.564 +03:00 [INF] HTTP GET /v1/home responded 401 in 10.1189 ms
