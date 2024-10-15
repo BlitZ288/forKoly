@@ -4,6 +4,7 @@ using Auth.Extensions.Mapper;
 using Auth.Extensions.Services;
 using Auth.Filter;
 using Auth.Infrastructure.DataBase;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 namespace Auth
@@ -35,6 +36,13 @@ namespace Auth
             builder.Services.ConfigurationMapper();
 
             var app = builder.Build();
+
+            /*запускаем миграции*/
+            using (var scope = app.Services.CreateScope())
+            {
+                var context = scope.ServiceProvider.GetRequiredService<ApplicationContext>();
+                context.Database.Migrate();
+            }
 
             app.UseHttpsRedirection();
 

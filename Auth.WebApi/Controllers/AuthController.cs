@@ -1,6 +1,7 @@
 ﻿using Asp.Versioning;
 using Auth.Application.Models.Authorization;
 using Auth.Application.Services;
+using Auth.Filter;
 using Auth.Models.Authorization;
 using Auth.Models.User;
 using MapsterMapper;
@@ -70,7 +71,7 @@ namespace Auth.Controllers
             {
                 return BadRequest(ex.Message);
             }
-            catch (Exception ex)
+            catch
             {
                 return StatusCode(500);
             }
@@ -111,9 +112,9 @@ namespace Auth.Controllers
 
                 return Ok(userId);
             }
-            catch (ArgumentException)
+            catch (ArgumentException ar)
             {
-                return Conflict();
+                return Conflict(ar.Message);
             }
             catch (Exception ex)
             {
@@ -130,6 +131,7 @@ namespace Auth.Controllers
         /// <response code="409">Токен обновления пустой.</response>       
         /// <response code="400">Непредвиденная ошибка.</response>       
         [HttpPost("refresh")]
+        [ServiceFilter<AuthorizationFilter>]
         [Produces("application/json")]
         [ProducesResponseType(typeof(LoginResponse), (int)HttpStatusCode.OK)]
         [ProducesResponseType((int)HttpStatusCode.Conflict)]
@@ -154,37 +156,47 @@ namespace Auth.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest();
+                return BadRequest(ex.Message);
             }
         }
 
+        /// <summary>
+        /// Выход из системы.
+        /// </summary>
+        /// <response code="200">Успешное удаление сесси.</response>       
+        /// <response code="400">непредвиденная ошибка.</response>       
+        /// <returns>Пустое тело</returns>
+        [Produces("application/json")]
+        [ServiceFilter<AuthorizationFilter>]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
         [HttpPost("logout")]
         public async Task<IActionResult> Logout()
         {
             try
             {
-                //var uidClaims = User.FindFirstValue("uid");
+                var uidClaims = User.FindFirstValue("uid");
 
-                //var isClaimValid = uidClaims == null || !long.TryParse(uidClaims, out var userId);
+                long userId = default;
+                var isClaimValid = uidClaims == null || !long.TryParse(uidClaims, out userId);
 
-                //if (!isClaimValid)
-                //{
-                //    return BadRequest();
-                //}
+                if (isClaimValid)
+                {
+                    return BadRequest();
+                }
 
-                //await _authorizationService.Logout(userId);
+                await _authorizationService.Logout(userId);
 
                 return Ok();
             }
             catch (Exception ex)
             {
-                return BadRequest();
+                return BadRequest(ex.Message);
             }
         }
 
         ///TODO: 
-        /// 1.Разработать нормальную систему ошибок.
-        ///2. Сделать выход из системы 
+        /// 1.Разработать нормальную систему ошибок.        
         ///2.1 Подключить Redis
     }
 }

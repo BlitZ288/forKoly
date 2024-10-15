@@ -1,0 +1,35 @@
+version: '3.4'
+
+services:
+  auth.webapi:
+    container_name: auth-api
+    image: ${DOCKER_REGISTRY-}authwebapi
+    build:
+      context: .
+      dockerfile: Auth.WebApi/Dockerfile
+    depends_on:
+      - db
+    networks:
+      - authnetwork
+    environment:     
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: Host=db;Port=5432;Database=auth-db;Username=postgress;Password=postgress
+      ASPNETCORE_URLS: http://+:8080 
+  db:
+    container_name: auth-db
+    image: postgres:14.1-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: postgress
+      POSTGRES_PASSWORD: postgress
+      POSTGRES_DB: auth-db
+    ports:
+      - '5435:5432'
+    volumes: 
+      - ./data:/var/lib/postgresql/data
+    networks:
+      - authnetwork
+
+networks:
+  authnetwork:
+    driver: bridge

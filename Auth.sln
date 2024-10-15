@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth", "Auth.csproj", "{636802E8-DCD9-4DE3-AC00-E71B583CB189}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.WebApi", "Auth.WebApi\Auth.WebApi.csproj", "{636802E8-DCD9-4DE3-AC00-E71B583CB189}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Application", "..\Auth.BLL\Auth.Application.csproj", "{5A7E426E-33AC-4BA1-AF51-921E35130016}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Application", "Auth.Application\Auth.Application.csproj", "{5A7E426E-33AC-4BA1-AF51-921E35130016}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Common", "..\Auth.Common\Auth.Common.csproj", "{570B4A0C-AB64-4862-877D-D71CBD313996}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Common", "Auth.Common\Auth.Common.csproj", "{570B4A0C-AB64-4862-877D-D71CBD313996}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Domain", "..\Auth.Domain\Auth.Domain.csproj", "{A5229A39-7F65-4165-B8DD-CDB028515BD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Domain", "Auth.Domain\Auth.Domain.csproj", "{A5229A39-7F65-4165-B8DD-CDB028515BD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Infrastructure", "..\Auth.Infrastructure\Auth.Infrastructure.csproj", "{5A977097-BAFE-4D79-B2C2-5A614B0561AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Infrastructure", "Auth.Infrastructure\Auth.Infrastructure.csproj", "{5A977097-BAFE-4D79-B2C2-5A614B0561AE}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4C84FDFD-DABB-4DAA-BBDA-0C9F30122D22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{5A977097-BAFE-4D79-B2C2-5A614B0561AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A977097-BAFE-4D79-B2C2-5A614B0561AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A977097-BAFE-4D79-B2C2-5A614B0561AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C84FDFD-DABB-4DAA-BBDA-0C9F30122D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C84FDFD-DABB-4DAA-BBDA-0C9F30122D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C84FDFD-DABB-4DAA-BBDA-0C9F30122D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C84FDFD-DABB-4DAA-BBDA-0C9F30122D22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
